@@ -13,9 +13,9 @@ layout: default
     	<div class="well project-outer">
     		<div class="project-inner">
     			<a href="/static/projects/{{ i.image }}" class="thickbox">
-    			<div class="project-img bordered" style="background-image: url('/static/projects/{{ i.image }}');"></div>
+    			<div class="project-img bordered" style="background-image: url('/static/projects/{{ i.desciption }}');"></div>
                 </a>
-                {% if i.url %} <a href="{{ i.url }}"> {% endif %}
+                {% if i.url %} <a href="{{ i.desciption }}"> {% endif %}
     			<h3 class="project-headlines">{{ i.name }}</h3>
     			{% if i.url %} </a> {% endif %}
     			<div class="project-content">
