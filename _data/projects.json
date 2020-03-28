@@ -1,8 +1,8 @@
 [
 	{
 		"name": "Canva Button Library",
-		"image": "angular.png",
-		"url": "https://www.canva.com/",
+		"image": "canva.jpg",
+		"url": "https://angular-dszeeb.stackblitz.io/",
 		"date": "Mar 2020",
 		"tags": ["Angular JS","API", "ES6"]
 	},
